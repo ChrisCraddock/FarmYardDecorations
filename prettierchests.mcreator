@@ -1,14 +1,609 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "BananaWood1",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "banana_wood_1",
+      "path": "~/BananaWood"
+    },
+    {
+      "name": "BananaWood2",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "banana_wood_2",
+      "path": "~/BananaWood"
+    },
+    {
+      "name": "BananaWood3",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "banana_wood_3",
+      "path": "~/BananaWood"
+    },
+    {
+      "name": "BananaWood4",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "banana_wood_4",
+      "path": "~/BananaWood"
+    },
+    {
+      "name": "Wood2",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_2",
+      "path": "~/BrownWood"
+    },
+    {
+      "name": "Wood3",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_3",
+      "path": "~/BrownWood"
+    },
+    {
+      "name": "Wood0",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_0",
+      "path": "~/BrownWood"
+    },
+    {
+      "name": "Wood1",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_1",
+      "path": "~/BrownWood"
+    },
+    {
+      "name": "VerticalWood",
+      "type": "tab",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vertical_wood"
+    },
+    {
+      "name": "Horizontal",
+      "type": "tab",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "horizontal"
+    },
+    {
+      "name": "RedBarnDoorTopLeft",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_barn_door_top_left",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "BarnDoor",
+      "type": "tab",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "barn_door"
+    },
+    {
+      "name": "RedBarnDoorMiddleLeft",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_barn_door_middle_left",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "RedBarnDoorBottomLeft",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_barn_door_bottom_left",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "RedBarnDoorTopRight",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_barn_door_top_right",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "RedBarnDoorMiddleRight",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_barn_door_middle_right",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "RedBarnDoorBottomRight",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_barn_door_bottom_right",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "BrownBarnDoorTopLeft",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brown_barn_door_top_left",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "BrownBarnDoorMiddleLeft",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brown_barn_door_middle_left",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "BrownBarnDoorBottomLeft",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brown_barn_door_bottom_left",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "BrownBarnDoorTopRight",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brown_barn_door_top_right",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "BrownBarnDoorMiddleRight",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brown_barn_door_middle_right",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "BrownBarnDoorBottomRight",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brown_barn_door_bottom_right",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "HorizWhiteBrownBarnDoorTopLeftFront",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "horiz_white_brown_barn_door_top_left_front",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "HorizWhiteBrownBarnDoorMiddleLeftFront",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "horiz_white_brown_barn_door_middle_left_front",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "HorizWhiteBrownBarnDoorBottomLeftFront",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "horiz_white_brown_barn_door_bottom_left_front",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "HorizWhiteBrownBarnDoorTopRightFront",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "horiz_white_brown_barn_door_top_right_front",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "HorizWhiteBrownBarnDoorMiddleRightFront",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "horiz_white_brown_barn_door_middle_right_front",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "HorizWhiteBrownBarnDoorBottomRightFront",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "horiz_white_brown_barn_door_bottom_right_front",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "HorizBrownBarnDoorTopLeft",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "horiz_brown_barn_door_top_left",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "HorizBrownBarnDoorMiddleLeft",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "horiz_brown_barn_door_middle_left",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "HorizBrownBarnDoorBottomLeft",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "horiz_brown_barn_door_bottom_left",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "HorizBrownBarnDoorTopRight",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "horiz_brown_barn_door_top_right",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "HorizBrownBarnDoorMiddleRight",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "horiz_brown_barn_door_middle_right",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "HorizBrownBarnDoorBottomRight",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "horiz_brown_barn_door_bottom_right",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "VertBrownDoorTopLeft",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vert_brown_door_top_left",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "VertBrownDoorMiddleLeft",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vert_brown_door_middle_left",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "VertBrownDoorBottomLeft",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vert_brown_door_bottom_left",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "VertBrownDoorTopRight",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vert_brown_door_top_right",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "VertBrownDoorMiddleRight",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vert_brown_door_middle_right",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "VertBrownDoorBottomRight",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vert_brown_door_bottom_right",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "VertWhiteBrownDoorTopLeft",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vert_white_brown_door_top_left",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "VertWhiteBrownDoorMiddleLeft",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vert_white_brown_door_middle_left",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "VertWhiteBrownDoorBottomLeft",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vert_white_brown_door_bottom_left",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "VertWhiteBrownDoorTopRight",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vert_white_brown_door_top_right",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "VertWhiteBrownDoorMiddleRight",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vert_white_brown_door_middle_right",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "VertWhiteBrownDoorBottomRight",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vert_white_brown_door_bottom_right",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "BananaWoodBarnDoorLeftTop",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "banana_wood_barn_door_left_top",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "BananaWoodBarnDoorLeftMiddle",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "banana_wood_barn_door_left_middle",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "BananaWoodBarnDoorLeftBottom",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "banana_wood_barn_door_left_bottom",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "BananaWoodBarnDoorRightTop",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "banana_wood_barn_door_right_top",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "BananaWoodBarnDoorRightMiddle",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "banana_wood_barn_door_right_middle",
+      "path": "~/BarnDoor"
+    },
+    {
+      "name": "BananaWoodBarnDoorRightBottom",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "banana_wood_barn_door_right_bottom",
+      "path": "~/BarnDoor"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.prettierchests.horiz_white_brown_barn_door_middle_right_front": "White Horizontal Brown Barn Door Middle Right",
+      "itemGroup.tabbarn_door": "Barn Door",
+      "block.prettierchests.brown_barn_door_middle_left": "Brown Barn Door Middle Left",
+      "block.prettierchests.banana_wood_barn_door_left_middle": "Banana Barn Door Middle Left",
+      "block.prettierchests.horiz_brown_barn_door_bottom_right": "Horizontal Brown Barn Door Bottom Right",
+      "block.prettierchests.red_barn_door_top_right": "Red Barn Door Top Right",
+      "block.prettierchests.brown_barn_door_top_left": "Brown Barn Door Top Left",
+      "block.prettierchests.brown_barn_door_bottom_left": "Brown Barn Door Bottom Left",
+      "block.prettierchests.vert_brown_door_top_left": "Vertical Brown Barn Door Top Left",
+      "block.prettierchests.vert_white_brown_door_middle_left": "Vertical White Brown Barn Door Middle Left",
+      "block.prettierchests.horiz_white_brown_barn_door_bottom_right_front": "White Horizontal Brown Barn Door Bottom Right",
+      "block.prettierchests.banana_wood_4": "Banana Wood 4 Vertical",
+      "itemGroup.tabhorizontal": "Horizontal",
+      "block.prettierchests.banana_wood_3": "Banana Wood 3 Horizontal",
+      "block.prettierchests.banana_wood_2": "Banana Wood 2 Vertical",
+      "block.prettierchests.banana_wood_1": "Banana Wood 1 Horizontal",
+      "block.prettierchests.red_barn_door_top_left": "Red Barn Door Top Left",
+      "block.prettierchests.vert_white_brown_door_bottom_right": "Vertical White Brown Barn Door Bottom Right",
+      "block.prettierchests.banana_wood_barn_door_left_bottom": "Banana Barn Door Bottom Left",
+      "block.prettierchests.vert_white_brown_door_middle_right": "Vertical White Brown Barn Door Middle Right",
+      "block.prettierchests.vert_brown_door_bottom_right": "Vertical Brown Barn Door Bottom Right",
+      "block.prettierchests.horiz_white_brown_barn_door_middle_left_front": "White Horizontal Brown Barn Door Middle Left",
+      "block.prettierchests.wood_2": "White Brown Wood Horizontal",
+      "block.prettierchests.wood_3": "WhiteBrownWoodVertical",
+      "block.prettierchests.wood_0": "BrownWoodVertical",
+      "block.prettierchests.wood_1": "BrownWoodHorizontal",
+      "block.prettierchests.brown_barn_door_top_right": "Brown Barn Door Top Right",
+      "block.prettierchests.vert_brown_door_middle_left": "Vertical Brown Barn Door Middle Left",
+      "block.prettierchests.horiz_brown_barn_door_middle_right": "Horizontal Brown Barn Door Middle Right",
+      "block.prettierchests.vert_white_brown_door_top_left": "Vertical White Brown Barn Door Top Left",
+      "block.prettierchests.banana_wood_barn_door_right_middle": "Banana Barn Door Middle Right",
+      "itemGroup.tabvertical_wood": "Vertical Wood",
+      "block.prettierchests.red_barn_door_bottom_left": "Red Barn Door Bottom Left",
+      "block.prettierchests.red_barn_door_middle_left": "Red Barn Door Middle Left",
+      "block.prettierchests.horiz_white_brown_barn_door_top_right_front": "White Horizontal Brown Barn Door Top Right",
+      "block.prettierchests.horiz_white_brown_barn_door_top_left_front": "White Horizontal Brown Barn Door Top Left",
+      "block.prettierchests.horiz_brown_barn_door_bottom_left": "Horizontal Brown Barn Door Bottom Left",
+      "block.prettierchests.horiz_brown_barn_door_middle_left": "Horizontal Brown Barn Door Middle Left",
+      "block.prettierchests.horiz_white_brown_barn_door_bottom_left_front": "White Horizontal Brown Barn Door Bottom Left",
+      "block.prettierchests.vert_brown_door_bottom_left": "Vertical Brown Barn Door Bottom Left",
+      "block.prettierchests.vert_brown_door_top_right": "Vertical Brown Barn Door Top Right",
+      "block.prettierchests.red_barn_door_bottom_right": "Red Barn Door Bottom Right",
+      "block.prettierchests.horiz_brown_barn_door_top_right": "Horizontal Brown Barn Door Top Right",
+      "block.prettierchests.vert_brown_door_middle_right": "Vertical Brown Barn Door Middle Right",
+      "block.prettierchests.vert_white_brown_door_bottom_left": "Vertical White Brown Barn Door Bottom Left",
+      "block.prettierchests.horiz_brown_barn_door_top_left": "Horizontal Brown Barn Door Top Left",
+      "block.prettierchests.vert_white_brown_door_top_right": "Vertical White Brown Barn Door Top Right",
+      "block.prettierchests.banana_wood_barn_door_right_top": "Banana Barn Door Top Right",
+      "block.prettierchests.red_barn_door_middle_right": "Red Barn Door Middle Right",
+      "block.prettierchests.banana_wood_barn_door_right_bottom": "Banana Barn Door Bottom Right",
+      "block.prettierchests.brown_barn_door_middle_right": "Brown Barn Door Middle Right",
+      "block.prettierchests.brown_barn_door_bottom_right": "Brown Barn Door Bottom Right",
+      "block.prettierchests.banana_wood_barn_door_left_top": "Banana Barn Door Top Left"
+    }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "BrownWood",
+        "children": []
+      },
+      {
+        "name": "BananaWood",
+        "children": []
+      },
+      {
+        "name": "BarnDoor",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "prettierchests",

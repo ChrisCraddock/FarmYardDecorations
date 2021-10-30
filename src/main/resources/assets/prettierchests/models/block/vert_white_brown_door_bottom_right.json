@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prettierchests:blocks/vertwhitewoodrighttoptop",
+    "up": "prettierchests:blocks/vertwhitewoodrighttoptop",
+    "north": "prettierchests:blocks/vertwhitewoodrightbottom",
+    "east": "prettierchests:blocks/vertwhitewoodsidebottom",
+    "south": "prettierchests:blocks/vertwhitewoodleftbottom",
+    "west": "prettierchests:blocks/vertwhitewoodsidebottom",
+    "particle": "prettierchests:blocks/vertwhitewoodrighttoptop"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prettierchests:blocks/horizwhitebrownbarndoortopleft",
+    "up": "prettierchests:blocks/horizwhitebrownbarndoortopleft",
+    "north": "prettierchests:blocks/horizwhitebrownbarndoormiddleleftfront",
+    "east": "prettierchests:blocks/horizwhitebrownbarndoormiddleside",
+    "south": "prettierchests:blocks/horizwhitebrownbarndoormiddlerightfront",
+    "west": "prettierchests:blocks/horizwhitebrownbarndoormiddleside",
+    "particle": "prettierchests:blocks/horizwhitebrownbarndoortopleft"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prettierchests:blocks/bananabarnwoodrtop",
+    "up": "prettierchests:blocks/bananabarnwoodrtop",
+    "north": "prettierchests:blocks/bananabarnwoodrighttop",
+    "east": "prettierchests:blocks/bananabarnwoodsidetop",
+    "south": "prettierchests:blocks/bananabarnwoodlefttop",
+    "west": "prettierchests:blocks/bananabarnwoodsidetop",
+    "particle": "prettierchests:blocks/bananabarnwoodrtop"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prettierchests:blocks/redbarndoortopright",
+    "up": "prettierchests:blocks/redbarndoortopright",
+    "north": "prettierchests:blocks/redbarndoormiddleleftfront",
+    "east": "prettierchests:blocks/redbarndoorsidemiddle",
+    "south": "prettierchests:blocks/redbarndoormiddlerightfront",
+    "west": "prettierchests:blocks/redbarndoorsidemiddle",
+    "particle": "prettierchests:blocks/redbarndoortopright"
+  }
+}

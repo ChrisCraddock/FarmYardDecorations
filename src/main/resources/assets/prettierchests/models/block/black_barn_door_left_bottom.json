@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prettierchests:blocks/blackbarnwoodtopleft",
+    "up": "prettierchests:blocks/blackbarnwoodtopleft",
+    "north": "prettierchests:blocks/blackbarnwoodleftbottom",
+    "east": "prettierchests:blocks/blackbarnwoodsidebottom",
+    "south": "prettierchests:blocks/blackbarnwoodrightbottom",
+    "west": "prettierchests:blocks/blackbarnwoodsidebottom",
+    "particle": "prettierchests:blocks/blackbarnwoodtopleft"
+  }
+}

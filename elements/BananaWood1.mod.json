@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Horizontal"
+      "value": "CUSTOM:Wood"
     },
     "destroyTool": "Not specified",
     "customDrop": {

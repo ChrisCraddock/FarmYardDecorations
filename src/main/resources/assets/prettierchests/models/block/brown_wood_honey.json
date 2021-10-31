@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prettierchests:blocks/honeycombtop0",
+    "up": "prettierchests:blocks/honeycombtop0",
+    "north": "prettierchests:blocks/honeycombside0",
+    "east": "prettierchests:blocks/honeycombside0",
+    "south": "prettierchests:blocks/honeycombside0",
+    "west": "prettierchests:blocks/honeycombside0",
+    "particle": "prettierchests:blocks/honeycombtop0"
+  }
+}

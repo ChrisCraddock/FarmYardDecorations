@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "Wood",
+    "icon": {
+      "value": "CUSTOM:BananaWood1"
+    },
+    "showSearch": true
+  }
+}

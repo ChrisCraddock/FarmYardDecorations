@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "prettierchests:block/horz_torch_stripe_wood"
+    },
+    "facing=east": {
+      "model": "prettierchests:block/horz_torch_stripe_wood",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "prettierchests:block/horz_torch_stripe_wood",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "prettierchests:block/horz_torch_stripe_wood",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "prettierchests:block/horz_torch_stripe_wood",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "prettierchests:block/horz_torch_stripe_wood",
+      "x": 90
+    }
+  }
+}

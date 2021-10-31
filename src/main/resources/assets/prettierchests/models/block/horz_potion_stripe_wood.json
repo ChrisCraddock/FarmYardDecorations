@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prettierchests:blocks/horzpotionstripewoodtops",
+    "up": "prettierchests:blocks/horzpotionstripewoodtops",
+    "north": "prettierchests:blocks/horzpotionstripewoodsides",
+    "east": "prettierchests:blocks/horzpotionstripewoodsides",
+    "south": "prettierchests:blocks/horzpotionstripewoodsides",
+    "west": "prettierchests:blocks/horzpotionstripewoodsides",
+    "particle": "prettierchests:blocks/horzpotionstripewoodtops"
+  }
+}

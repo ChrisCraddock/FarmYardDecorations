@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "prettierchests:block/flower_stripe_wood_sides"
+    },
+    "facing=east": {
+      "model": "prettierchests:block/flower_stripe_wood_sides",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "prettierchests:block/flower_stripe_wood_sides",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "prettierchests:block/flower_stripe_wood_sides",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "prettierchests:block/flower_stripe_wood_sides",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "prettierchests:block/flower_stripe_wood_sides",
+      "x": 90
+    }
+  }
+}

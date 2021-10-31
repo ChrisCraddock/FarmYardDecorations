@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prettierchests:blocks/flowerbrownwoodtop",
+    "up": "prettierchests:blocks/flowerbrownwoodtop",
+    "north": "prettierchests:blocks/flowerbrownwoodside",
+    "east": "prettierchests:blocks/flowerbrownwoodside",
+    "south": "prettierchests:blocks/flowerbrownwoodside",
+    "west": "prettierchests:blocks/flowerbrownwoodside",
+    "particle": "prettierchests:blocks/flowerbrownwoodtop"
+  }
+}

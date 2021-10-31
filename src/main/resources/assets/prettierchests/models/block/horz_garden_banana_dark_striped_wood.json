@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prettierchests:blocks/horzgardenbananadarkstripedwoodtops",
+    "up": "prettierchests:blocks/horzgardenbananadarkstripedwoodtops",
+    "north": "prettierchests:blocks/horzgardenbananadarkstripedwoodsides",
+    "east": "prettierchests:blocks/horzgardenbananadarkstripedwoodsides",
+    "south": "prettierchests:blocks/horzgardenbananadarkstripedwoodsides",
+    "west": "prettierchests:blocks/horzgardenbananadarkstripedwoodsides",
+    "particle": "prettierchests:blocks/horzgardenbananadarkstripedwoodtops"
+  }
+}

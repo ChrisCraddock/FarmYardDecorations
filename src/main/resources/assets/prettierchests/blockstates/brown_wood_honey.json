@@ -1,7 +1,27 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "prettierchests:block/brown_wood_honey"
+    },
+    "facing=east": {
+      "model": "prettierchests:block/brown_wood_honey",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "prettierchests:block/brown_wood_honey",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "prettierchests:block/brown_wood_honey",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "prettierchests:block/brown_wood_honey",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "prettierchests:block/brown_wood_honey",
+      "x": 90
     }
   }
 }

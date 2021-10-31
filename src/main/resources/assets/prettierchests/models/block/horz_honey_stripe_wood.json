@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prettierchests:blocks/horzhoneystripewoodtops",
+    "up": "prettierchests:blocks/horzhoneystripewoodtops",
+    "north": "prettierchests:blocks/horzhoneystripewoodsides",
+    "east": "prettierchests:blocks/horzhoneystripewoodsides",
+    "south": "prettierchests:blocks/horzhoneystripewoodsides",
+    "west": "prettierchests:blocks/horzhoneystripewoodsides",
+    "particle": "prettierchests:blocks/horzhoneystripewoodtops"
+  }
+}

@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "prettierchests:blocks/gardenbananastripedwoodtops",
-    "up": "prettierchests:blocks/gardenbananastripedwoodtops",
-    "north": "prettierchests:blocks/gardenbananastripedwoodsides",
-    "east": "prettierchests:blocks/gardenbananastripedwoodsides",
-    "south": "prettierchests:blocks/gardenbananastripedwoodsides",
-    "west": "prettierchests:blocks/gardenbananastripedwoodsides",
-    "particle": "prettierchests:blocks/gardenbananastripedwoodtops"
+    "down": "prettierchests:blocks/gardenstripewoodtops",
+    "up": "prettierchests:blocks/gardenstripewoodtops",
+    "north": "prettierchests:blocks/gardenstripewoodsides",
+    "east": "prettierchests:blocks/gardenstripewoodsides",
+    "south": "prettierchests:blocks/gardenstripewoodsides",
+    "west": "prettierchests:blocks/gardenstripewoodsides",
+    "particle": "prettierchests:blocks/gardenstripewoodtops"
   }
 }

@@ -1,7 +1,27 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "prettierchests:block/black_barn_door_left_bottom"
+    },
+    "facing=east": {
+      "model": "prettierchests:block/black_barn_door_left_bottom",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "prettierchests:block/black_barn_door_left_bottom",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "prettierchests:block/black_barn_door_left_bottom",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "prettierchests:block/black_barn_door_left_bottom",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "prettierchests:block/black_barn_door_left_bottom",
+      "x": 90
     }
   }
 }

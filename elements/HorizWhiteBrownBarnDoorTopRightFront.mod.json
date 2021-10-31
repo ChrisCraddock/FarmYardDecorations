@@ -2,8 +2,8 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "horizwhitebrownbarndoortopright",
-    "textureTop": "horizwhitebrownbarndoortopright",
+    "texture": "vertwhitewoodrighttoptop",
+    "textureTop": "vertwhitewoodrighttoptop",
     "textureLeft": "horizwhitebrownbarndoortopside",
     "textureFront": "horizwhitebrownbarndoortoprightfront",
     "textureRight": "horizwhitebrownbarndoortopside",

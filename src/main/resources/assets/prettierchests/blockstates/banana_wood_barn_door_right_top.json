@@ -1,7 +1,27 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "prettierchests:block/banana_wood_barn_door_right_top"
+    },
+    "facing=east": {
+      "model": "prettierchests:block/banana_wood_barn_door_right_top",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "prettierchests:block/banana_wood_barn_door_right_top",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "prettierchests:block/banana_wood_barn_door_right_top",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "prettierchests:block/banana_wood_barn_door_right_top",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "prettierchests:block/banana_wood_barn_door_right_top",
+      "x": 90
     }
   }
 }

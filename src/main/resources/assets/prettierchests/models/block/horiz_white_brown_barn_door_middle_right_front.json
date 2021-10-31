@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "prettierchests:blocks/horizwhitebrownbarndoortopright",
-    "up": "prettierchests:blocks/horizwhitebrownbarndoortopright",
+    "down": "prettierchests:blocks/vertwhitewoodrighttoptop",
+    "up": "prettierchests:blocks/vertwhitewoodrighttoptop",
     "north": "prettierchests:blocks/horizwhitebrownbarndoormiddlerightfront",
     "east": "prettierchests:blocks/horizwhitebrownbarndoormiddleside",
     "south": "prettierchests:blocks/horizwhitebrownbarndoormiddleleftfront",
     "west": "prettierchests:blocks/horizwhitebrownbarndoormiddleside",
-    "particle": "prettierchests:blocks/horizwhitebrownbarndoortopright"
+    "particle": "prettierchests:blocks/vertwhitewoodrighttoptop"
   }
 }

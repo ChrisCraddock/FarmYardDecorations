@@ -1,0 +1,13 @@
+{
+  "group": "prettierchests",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:crafting_table"
+    }
+  ],
+  "result": {
+    "item": "prettierchests:crafting_block",
+    "count": 1
+  }
+}

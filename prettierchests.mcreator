@@ -1946,6 +1946,16 @@
         ]
       },
       "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "PackCraftingTable",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pack_crafting_table",
+      "path": "~/Logic and Crafting"
     }
   ],
   "variable_elements": [],

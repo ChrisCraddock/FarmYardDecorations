@@ -687,6 +687,42 @@
           "x": 24,
           "y": 26
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Wood",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Wood",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guitorch.png",
+          "use1Xscale": false,
+          "name": "guitorch.png",
+          "x": 132,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Torch",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Torch",
+          "x": 132,
+          "y": 107
+        }
       }
     ],
     "gridSettings": {

@@ -54,6 +54,8 @@ public class CraftingTableGUIGuiWindow extends ContainerScreen<CraftingTableGUIG
 		int k = (this.width - this.xSize) / 2;
 		int l = (this.height - this.ySize) / 2;
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("prettierchests:textures/guitorch.png"));
+		this.blit(ms, this.guiLeft + 10, this.guiTop + 85, 0, 0, 16, 16, 16, 16);
 		RenderSystem.disableBlend();
 	}
 
@@ -73,6 +75,8 @@ public class CraftingTableGUIGuiWindow extends ContainerScreen<CraftingTableGUIG
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
+		this.font.drawString(ms, "Wood", 10, 40, -12829636);
+		this.font.drawString(ms, "Torch", 10, 103, -12829636);
 	}
 
 	@Override

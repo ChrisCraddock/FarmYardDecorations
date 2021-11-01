@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.prettierchests.block.BananaWood1Block;
+import net.mcreator.prettierchests.block.HorizontalBrownWoodBrownStripeBlock;
 import net.mcreator.prettierchests.PrettierchestsModElements;
 
 @PrettierchestsModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class WoodItemGroup extends PrettierchestsModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(BananaWood1Block.block);
+				return new ItemStack(HorizontalBrownWoodBrownStripeBlock.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)

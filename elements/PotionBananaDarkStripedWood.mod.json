@@ -2,12 +2,12 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "horzpotionbananadarkstripedwoodtops",
-    "textureTop": "horzpotionbananadarkstripedwoodtops",
-    "textureLeft": "horzpotionbananadarkstripedwoodsides",
-    "textureFront": "horzpotionbananadarkstripedwoodsides",
-    "textureRight": "horzpotionbananadarkstripedwoodsides",
-    "textureBack": "horzpotionbananadarkstripedwoodsides",
+    "texture": "potionbananadarkstripedwoodtops",
+    "textureTop": "potionbananadarkstripedwoodtops",
+    "textureLeft": "potionbananadarkstripedwoodsides",
+    "textureFront": "potionbananadarkstripedwoodsides",
+    "textureRight": "potionbananadarkstripedwoodsides",
+    "textureBack": "potionbananadarkstripedwoodsides",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 2,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Potion Banana Dark Striped Wood",
+    "name": "Potion Vertical Tan Wood Brown Stripe",
     "specialInfo": [],
     "hardness": 2.0,
     "resistance": 3.0,

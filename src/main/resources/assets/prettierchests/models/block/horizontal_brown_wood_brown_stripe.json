@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prettierchests:blocks/horizontalbrownwooddarkstripetops",
+    "up": "prettierchests:blocks/horizontalbrownwooddarkstripetops",
+    "north": "prettierchests:blocks/horizontalbrownwooddarkstripesides",
+    "east": "prettierchests:blocks/horizontalbrownwooddarkstripesides",
+    "south": "prettierchests:blocks/horizontalbrownwooddarkstripesides",
+    "west": "prettierchests:blocks/horizontalbrownwooddarkstripesides",
+    "particle": "prettierchests:blocks/horizontalbrownwooddarkstripetops"
+  }
+}

@@ -8,14 +8,16 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
-import net.mcreator.prettierchests.block.Wood3Block;
-import net.mcreator.prettierchests.block.Wood2Block;
-import net.mcreator.prettierchests.block.BrownWoodBlock;
-import net.mcreator.prettierchests.block.BlackWoodBlock;
-import net.mcreator.prettierchests.block.BananaWood4Block;
-import net.mcreator.prettierchests.block.BananaWood3Block;
-import net.mcreator.prettierchests.block.BananaWood2Block;
-import net.mcreator.prettierchests.block.BananaWood1Block;
+import net.mcreator.prettierchests.block.VerticalTanWoodWhiteStripeBlock;
+import net.mcreator.prettierchests.block.VerticalTanWoodTanStripeBlock;
+import net.mcreator.prettierchests.block.VerticalTanWoodBrownStripeBlock;
+import net.mcreator.prettierchests.block.VerticalBrownWoodWhiteStripeBlock;
+import net.mcreator.prettierchests.block.VerticalBrownWoodBrownStripeBlock;
+import net.mcreator.prettierchests.block.VerticalBlackWoodBlackStripeBlock;
+import net.mcreator.prettierchests.block.HorizontalTanWoodTanStripeBlock;
+import net.mcreator.prettierchests.block.HorizontalTanWoodBrownStripeBlock;
+import net.mcreator.prettierchests.block.HorizontalBrownWoodWhiteStripeBlock;
+import net.mcreator.prettierchests.block.HorizontalBrownWoodBrownStripeBlock;
 import net.mcreator.prettierchests.PrettierchestsMod;
 
 import java.util.function.Supplier;
@@ -79,8 +81,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood1Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBrownWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -95,7 +97,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (2))) + 1));
+							}.getAmount((int) (2))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -106,8 +123,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood2Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -122,7 +139,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (9))) + 1));
+							}.getAmount((int) (9))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (9))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -133,8 +165,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood3Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodTanStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -149,7 +181,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (16))) + 1));
+							}.getAmount((int) (16))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (16))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -160,8 +207,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood4Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBlackWoodBlackStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -176,7 +223,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (23))) + 1));
+							}.getAmount((int) (23))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (23))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -187,8 +249,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Wood2Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -203,7 +265,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (30))) + 1));
+							}.getAmount((int) (30))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (30))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -214,8 +291,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Wood3Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBrownWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -230,7 +307,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (37))) + 1));
+							}.getAmount((int) (37))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (37))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -241,8 +333,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BlackWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(HorizontalBrownWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -257,7 +349,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (3))) + 1));
+							}.getAmount((int) (3))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (3))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -268,8 +375,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BrownWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(HorizontalTanWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -284,28 +391,107 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (10))) + 1));
+							}.getAmount((int) (10))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (10))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof ServerPlayerEntity) {
-					Container _current = ((ServerPlayerEntity) entity).openContainer;
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							((Slot) ((Map) invobj).get((int) (17))).putStack(ItemStack.EMPTY);
+							ItemStack _setstack = new ItemStack(HorizontalTanWoodTanStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (17))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
+							((Slot) ((Map) invobj).get((int) (17))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof ServerPlayerEntity) {
-					Container _current = ((ServerPlayerEntity) entity).openContainer;
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							((Slot) ((Map) invobj).get((int) (24))).putStack(ItemStack.EMPTY);
+							ItemStack _setstack = new ItemStack(HorizontalBrownWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (24))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
+							((Slot) ((Map) invobj).get((int) (24))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -665,8 +851,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood1Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBrownWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -681,7 +867,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (2))) + 1));
+							}.getAmount((int) (2))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -692,8 +893,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood2Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -708,7 +909,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (9))) + 1));
+							}.getAmount((int) (9))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (9))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -719,8 +935,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood3Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodTanStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -735,7 +951,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (16))) + 1));
+							}.getAmount((int) (16))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (16))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -746,8 +977,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood4Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBlackWoodBlackStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -762,7 +993,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (23))) + 1));
+							}.getAmount((int) (23))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (23))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -773,8 +1019,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Wood2Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -789,7 +1035,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (30))) + 1));
+							}.getAmount((int) (30))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (30))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -800,8 +1061,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Wood3Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBrownWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -816,7 +1077,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (37))) + 1));
+							}.getAmount((int) (37))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (37))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -827,8 +1103,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BlackWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(HorizontalBrownWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -843,7 +1119,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (3))) + 1));
+							}.getAmount((int) (3))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (3))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -854,8 +1145,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BrownWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(HorizontalTanWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -870,28 +1161,107 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (10))) + 1));
+							}.getAmount((int) (10))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (10))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof ServerPlayerEntity) {
-					Container _current = ((ServerPlayerEntity) entity).openContainer;
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							((Slot) ((Map) invobj).get((int) (17))).putStack(ItemStack.EMPTY);
+							ItemStack _setstack = new ItemStack(HorizontalTanWoodTanStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (17))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
+							((Slot) ((Map) invobj).get((int) (17))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof ServerPlayerEntity) {
-					Container _current = ((ServerPlayerEntity) entity).openContainer;
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							((Slot) ((Map) invobj).get((int) (24))).putStack(ItemStack.EMPTY);
+							ItemStack _setstack = new ItemStack(HorizontalBrownWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (24))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
+							((Slot) ((Map) invobj).get((int) (24))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -1251,8 +1621,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood1Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBrownWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -1267,7 +1637,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (2))) + 1));
+							}.getAmount((int) (2))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -1278,8 +1663,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood2Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -1294,7 +1679,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (9))) + 1));
+							}.getAmount((int) (9))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (9))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -1305,8 +1705,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood3Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodTanStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -1321,7 +1721,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (16))) + 1));
+							}.getAmount((int) (16))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (16))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -1332,8 +1747,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood4Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBlackWoodBlackStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -1348,7 +1763,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (23))) + 1));
+							}.getAmount((int) (23))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (23))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -1359,8 +1789,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Wood2Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -1375,7 +1805,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (30))) + 1));
+							}.getAmount((int) (30))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (30))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -1386,8 +1831,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Wood3Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBrownWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -1402,7 +1847,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (37))) + 1));
+							}.getAmount((int) (37))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (37))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -1413,8 +1873,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BlackWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(HorizontalBrownWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -1429,7 +1889,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (3))) + 1));
+							}.getAmount((int) (3))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (3))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -1440,8 +1915,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BrownWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(HorizontalTanWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -1456,28 +1931,107 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (10))) + 1));
+							}.getAmount((int) (10))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (10))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof ServerPlayerEntity) {
-					Container _current = ((ServerPlayerEntity) entity).openContainer;
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							((Slot) ((Map) invobj).get((int) (17))).putStack(ItemStack.EMPTY);
+							ItemStack _setstack = new ItemStack(HorizontalTanWoodTanStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (17))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
+							((Slot) ((Map) invobj).get((int) (17))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof ServerPlayerEntity) {
-					Container _current = ((ServerPlayerEntity) entity).openContainer;
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							((Slot) ((Map) invobj).get((int) (24))).putStack(ItemStack.EMPTY);
+							ItemStack _setstack = new ItemStack(HorizontalBrownWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (24))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
+							((Slot) ((Map) invobj).get((int) (24))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -1837,8 +2391,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood1Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBrownWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -1853,7 +2407,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (2))) + 1));
+							}.getAmount((int) (2))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -1864,8 +2433,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood2Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -1880,7 +2449,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (9))) + 1));
+							}.getAmount((int) (9))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (9))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -1891,8 +2475,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood3Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodTanStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -1907,7 +2491,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (16))) + 1));
+							}.getAmount((int) (16))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (16))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -1918,8 +2517,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood4Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBlackWoodBlackStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -1934,7 +2533,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (23))) + 1));
+							}.getAmount((int) (23))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (23))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -1945,8 +2559,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Wood2Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -1961,7 +2575,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (30))) + 1));
+							}.getAmount((int) (30))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (30))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -1972,8 +2601,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Wood3Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBrownWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -1988,7 +2617,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (37))) + 1));
+							}.getAmount((int) (37))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (37))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -1999,8 +2643,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BlackWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(HorizontalBrownWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -2015,7 +2659,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (3))) + 1));
+							}.getAmount((int) (3))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (3))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -2026,8 +2685,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BrownWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(HorizontalTanWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -2042,28 +2701,107 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (10))) + 1));
+							}.getAmount((int) (10))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (10))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof ServerPlayerEntity) {
-					Container _current = ((ServerPlayerEntity) entity).openContainer;
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							((Slot) ((Map) invobj).get((int) (17))).putStack(ItemStack.EMPTY);
+							ItemStack _setstack = new ItemStack(HorizontalTanWoodTanStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (17))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
+							((Slot) ((Map) invobj).get((int) (17))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof ServerPlayerEntity) {
-					Container _current = ((ServerPlayerEntity) entity).openContainer;
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							((Slot) ((Map) invobj).get((int) (24))).putStack(ItemStack.EMPTY);
+							ItemStack _setstack = new ItemStack(HorizontalBrownWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (24))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
+							((Slot) ((Map) invobj).get((int) (24))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -2423,8 +3161,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood1Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBrownWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -2439,7 +3177,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (2))) + 1));
+							}.getAmount((int) (2))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -2450,8 +3203,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood2Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -2466,7 +3219,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (9))) + 1));
+							}.getAmount((int) (9))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (9))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -2477,8 +3245,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood3Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodTanStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -2493,7 +3261,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (16))) + 1));
+							}.getAmount((int) (16))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (16))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -2504,8 +3287,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood4Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBlackWoodBlackStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -2520,7 +3303,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (23))) + 1));
+							}.getAmount((int) (23))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (23))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -2531,8 +3329,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Wood2Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -2547,7 +3345,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (30))) + 1));
+							}.getAmount((int) (30))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (30))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -2558,8 +3371,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Wood3Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBrownWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -2574,7 +3387,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (37))) + 1));
+							}.getAmount((int) (37))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (37))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -2585,8 +3413,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BlackWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(HorizontalBrownWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -2601,7 +3429,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (3))) + 1));
+							}.getAmount((int) (3))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (3))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -2612,8 +3455,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BrownWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(HorizontalTanWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -2628,28 +3471,107 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (10))) + 1));
+							}.getAmount((int) (10))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (10))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof ServerPlayerEntity) {
-					Container _current = ((ServerPlayerEntity) entity).openContainer;
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							((Slot) ((Map) invobj).get((int) (17))).putStack(ItemStack.EMPTY);
+							ItemStack _setstack = new ItemStack(HorizontalTanWoodTanStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (17))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
+							((Slot) ((Map) invobj).get((int) (17))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof ServerPlayerEntity) {
-					Container _current = ((ServerPlayerEntity) entity).openContainer;
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							((Slot) ((Map) invobj).get((int) (24))).putStack(ItemStack.EMPTY);
+							ItemStack _setstack = new ItemStack(HorizontalBrownWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (24))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
+							((Slot) ((Map) invobj).get((int) (24))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -3009,8 +3931,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood1Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBrownWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3025,7 +3947,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (2))) + 1));
+							}.getAmount((int) (2))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -3036,8 +3973,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood2Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3052,7 +3989,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (9))) + 1));
+							}.getAmount((int) (9))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (9))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -3063,8 +4015,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood3Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodTanStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3079,7 +4031,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (16))) + 1));
+							}.getAmount((int) (16))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (16))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -3090,8 +4057,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood4Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBlackWoodBlackStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3106,7 +4073,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (23))) + 1));
+							}.getAmount((int) (23))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (23))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -3117,8 +4099,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Wood2Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3133,7 +4115,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (30))) + 1));
+							}.getAmount((int) (30))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (30))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -3144,8 +4141,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Wood3Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBrownWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3160,7 +4157,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (37))) + 1));
+							}.getAmount((int) (37))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (37))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -3171,8 +4183,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BlackWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(HorizontalBrownWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3187,7 +4199,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (3))) + 1));
+							}.getAmount((int) (3))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (3))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -3198,8 +4225,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BrownWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(HorizontalTanWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3214,28 +4241,107 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (10))) + 1));
+							}.getAmount((int) (10))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (10))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof ServerPlayerEntity) {
-					Container _current = ((ServerPlayerEntity) entity).openContainer;
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							((Slot) ((Map) invobj).get((int) (17))).putStack(ItemStack.EMPTY);
+							ItemStack _setstack = new ItemStack(HorizontalTanWoodTanStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (17))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
+							((Slot) ((Map) invobj).get((int) (17))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof ServerPlayerEntity) {
-					Container _current = ((ServerPlayerEntity) entity).openContainer;
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							((Slot) ((Map) invobj).get((int) (24))).putStack(ItemStack.EMPTY);
+							ItemStack _setstack = new ItemStack(HorizontalBrownWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (24))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
+							((Slot) ((Map) invobj).get((int) (24))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -3595,8 +4701,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood1Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBrownWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3611,7 +4717,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (2))) + 1));
+							}.getAmount((int) (2))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -3622,8 +4743,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood2Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3638,7 +4759,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (9))) + 1));
+							}.getAmount((int) (9))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (9))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -3649,8 +4785,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood3Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodTanStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3665,7 +4801,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (16))) + 1));
+							}.getAmount((int) (16))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (16))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -3676,8 +4827,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood4Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBlackWoodBlackStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3692,7 +4843,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (23))) + 1));
+							}.getAmount((int) (23))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (23))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -3703,8 +4869,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Wood2Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3719,7 +4885,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (30))) + 1));
+							}.getAmount((int) (30))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (30))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -3730,8 +4911,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Wood3Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBrownWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3746,7 +4927,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (37))) + 1));
+							}.getAmount((int) (37))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (37))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -3757,8 +4953,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BlackWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(HorizontalBrownWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3773,7 +4969,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (3))) + 1));
+							}.getAmount((int) (3))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (3))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -3784,8 +4995,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BrownWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(HorizontalTanWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3800,28 +5011,107 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (10))) + 1));
+							}.getAmount((int) (10))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (10))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof ServerPlayerEntity) {
-					Container _current = ((ServerPlayerEntity) entity).openContainer;
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							((Slot) ((Map) invobj).get((int) (17))).putStack(ItemStack.EMPTY);
+							ItemStack _setstack = new ItemStack(HorizontalTanWoodTanStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (17))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
+							((Slot) ((Map) invobj).get((int) (17))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof ServerPlayerEntity) {
-					Container _current = ((ServerPlayerEntity) entity).openContainer;
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							((Slot) ((Map) invobj).get((int) (24))).putStack(ItemStack.EMPTY);
+							ItemStack _setstack = new ItemStack(HorizontalBrownWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (24))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
+							((Slot) ((Map) invobj).get((int) (24))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -4181,8 +5471,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood1Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBrownWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -4197,7 +5487,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (2))) + 1));
+							}.getAmount((int) (2))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -4208,8 +5513,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood2Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -4224,7 +5529,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (9))) + 1));
+							}.getAmount((int) (9))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (9))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -4235,8 +5555,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood3Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodTanStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -4251,7 +5571,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (16))) + 1));
+							}.getAmount((int) (16))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (16))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -4262,8 +5597,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BananaWood4Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBlackWoodBlackStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -4278,7 +5613,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (23))) + 1));
+							}.getAmount((int) (23))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (23))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -4289,8 +5639,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Wood2Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalTanWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -4305,7 +5655,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (30))) + 1));
+							}.getAmount((int) (30))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (30))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -4316,8 +5681,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Wood3Block.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(VerticalBrownWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -4332,7 +5697,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (37))) + 1));
+							}.getAmount((int) (37))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (37))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -4343,8 +5723,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BlackWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(HorizontalBrownWoodWhiteStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -4359,7 +5739,22 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (3))) + 1));
+							}.getAmount((int) (3))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (3))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -4370,8 +5765,8 @@ public class WoodLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BrownWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							ItemStack _setstack = new ItemStack(HorizontalTanWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -4386,28 +5781,107 @@ public class WoodLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (10))) + 1));
+							}.getAmount((int) (10))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
 							((Slot) ((Map) invobj).get((int) (10))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof ServerPlayerEntity) {
-					Container _current = ((ServerPlayerEntity) entity).openContainer;
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							((Slot) ((Map) invobj).get((int) (17))).putStack(ItemStack.EMPTY);
+							ItemStack _setstack = new ItemStack(HorizontalTanWoodTanStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (17))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
+							((Slot) ((Map) invobj).get((int) (17))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof ServerPlayerEntity) {
-					Container _current = ((ServerPlayerEntity) entity).openContainer;
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							((Slot) ((Map) invobj).get((int) (24))).putStack(ItemStack.EMPTY);
+							ItemStack _setstack = new ItemStack(HorizontalBrownWoodBrownStripeBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (24))), (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (0)))));
+							((Slot) ((Map) invobj).get((int) (24))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}

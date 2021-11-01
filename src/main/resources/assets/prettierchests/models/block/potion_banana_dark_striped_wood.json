@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "prettierchests:blocks/horzpotionbananadarkstripedwoodtops",
-    "up": "prettierchests:blocks/horzpotionbananadarkstripedwoodtops",
-    "north": "prettierchests:blocks/horzpotionbananadarkstripedwoodsides",
-    "east": "prettierchests:blocks/horzpotionbananadarkstripedwoodsides",
-    "south": "prettierchests:blocks/horzpotionbananadarkstripedwoodsides",
-    "west": "prettierchests:blocks/horzpotionbananadarkstripedwoodsides",
-    "particle": "prettierchests:blocks/horzpotionbananadarkstripedwoodtops"
+    "down": "prettierchests:blocks/potionbananadarkstripedwoodtops",
+    "up": "prettierchests:blocks/potionbananadarkstripedwoodtops",
+    "north": "prettierchests:blocks/potionbananadarkstripedwoodsides",
+    "east": "prettierchests:blocks/potionbananadarkstripedwoodsides",
+    "south": "prettierchests:blocks/potionbananadarkstripedwoodsides",
+    "west": "prettierchests:blocks/potionbananadarkstripedwoodsides",
+    "particle": "prettierchests:blocks/potionbananadarkstripedwoodtops"
   }
 }

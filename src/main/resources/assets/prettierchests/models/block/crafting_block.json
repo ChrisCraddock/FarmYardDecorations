@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "prettierchests:blocks/craftingbenchbottom",
+    "up": "prettierchests:blocks/craftingbenchtop",
+    "north": "prettierchests:blocks/craftingbenchside",
+    "east": "prettierchests:blocks/craftingbenchside",
+    "south": "prettierchests:blocks/craftingbenchside",
+    "west": "prettierchests:blocks/craftingbenchside",
+    "particle": "prettierchests:blocks/craftingbenchbottom"
+  }
+}

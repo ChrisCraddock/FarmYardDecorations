@@ -1027,6 +1027,925 @@
       "ids": {},
       "registry_name": "garden_white_stripe_brown_wood",
       "path": "~/Decorations"
+    },
+    {
+      "name": "CraftingBlock",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_block"
+    },
+    {
+      "name": "CraftingTableGUI",
+      "type": "gui",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_table_gui",
+      "path": "~/Logic and Crafting"
+    },
+    {
+      "name": "BarnDoorLogic",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "barn_door_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting"
+    },
+    {
+      "name": "TorchLogic",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "torch_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting"
+    },
+    {
+      "name": "WoodLogic",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting"
+    },
+    {
+      "name": "DecorationLogic",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decoration_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting"
+    },
+    {
+      "name": "MainBranchLogic",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "main_branch_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting"
+    },
+    {
+      "name": "Slot0ClearAllItems",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slot_0_clear_all_items",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting"
+    },
+    {
+      "name": "SubtractCountFromSlot0",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_0",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting"
+    },
+    {
+      "name": "SubtractCountFromSlot1",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot2",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot3",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot4",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot5",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_5",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot6",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_6",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot7",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_7",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot8",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_8",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot9",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_9",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot10",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_10",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot11",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_11",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot12",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_12",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot13",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_13",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot14",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_14",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot15",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_15",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot16",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_16",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot17",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_17",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot18",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_18",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot19",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_19",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot20",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_20",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot21",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_21",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot22",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_22",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot23",
+      "type": "procedure",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_23",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot24",
+      "type": "procedure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_24",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot25",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_25",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot26",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_26",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot27",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_27",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot28",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_28",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot29",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_29",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot30",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_30",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot31",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_31",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot32",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_32",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot33",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_33",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot34",
+      "type": "procedure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_34",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot35",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_35",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot36",
+      "type": "procedure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_36",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot37",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_37",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot38",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_38",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot39",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_39",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot40",
+      "type": "procedure",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_40",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot41",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_41",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot42",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_42",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
+    },
+    {
+      "name": "SubtractCountFromSlot43",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "subtract_count_from_slot_43",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Logic and Crafting/SubtractCountFromSlot"
     }
   ],
   "variable_elements": [],
@@ -1111,6 +2030,7 @@
       "block.prettierchests.vert_white_brown_door_middle_right": "Vertical White Brown Barn Door Middle Right",
       "block.prettierchests.horz_honey_banana_wood": "Honey Horizontal Banana Wood",
       "block.prettierchests.black_barn_door_right_bottom": "Black Barn Door Bottom Right",
+      "block.prettierchests.crafting_block": "Crafting Block",
       "block.prettierchests.horiz_white_brown_barn_door_middle_left_front": "White Horizontal Brown Barn Door Middle Left",
       "block.prettierchests.wood_2": "White Brown Wood Horizontal",
       "block.prettierchests.wood_3": "WhiteBrownWoodVertical",
@@ -1156,6 +2076,19 @@
       {
         "name": "Decorations",
         "children": []
+      },
+      {
+        "name": "Logic and Crafting",
+        "children": [
+          {
+            "name": "SubtractCountFromSlot",
+            "children": []
+          },
+          {
+            "name": "WoodCrafting",
+            "children": []
+          }
+        ]
       }
     ]
   },

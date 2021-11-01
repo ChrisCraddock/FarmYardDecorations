@@ -39,7 +39,8 @@ a different version.  As I get better with converting things to other versions o
 
 
 ### Known Issue:
-Crafting wood planks with no design will match how many you put in, and not leave any left over. Tested many different logic combinations but all could be used to surpass amount put in.
+1. Crafting wood planks with no design will match how many you put in, and not leave any left over. Tested many different logic combinations but all could be used to surpass amount put in.
+2. Changing the name of the workspace in MCreator so if using WAWLA or another HUD, it displays the correct name instead of what I started off with
 
 
 ### Copyright

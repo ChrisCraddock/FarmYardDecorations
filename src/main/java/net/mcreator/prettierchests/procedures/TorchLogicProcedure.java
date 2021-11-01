@@ -60,3498 +60,6 @@ public class TorchLogicProcedure {
 					}
 					return ItemStack.EMPTY;
 				}
-			}.getItemStack((int) (0))).getItem() == Blocks.OAK_PLANKS.asItem()) && ((new Object() {
-				public ItemStack getItemStack(int sltid) {
-					Entity _ent = entity;
-					if (_ent instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) _ent).openContainer;
-						if (_current instanceof Supplier) {
-							Object invobj = ((Supplier) _current).get();
-							if (invobj instanceof Map) {
-								return ((Slot) ((Map) invobj).get(sltid)).getStack();
-							}
-						}
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack((int) (1))).getItem() == Blocks.TORCH.asItem()))) {
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(TorchBananaDarkStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (2))) + 1));
-							((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(TorchBananaStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (9))) + 1));
-							((Slot) ((Map) invobj).get((int) (9))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(TorchBananaWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (16))) + 1));
-							((Slot) ((Map) invobj).get((int) (16))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(TorchBlackWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (23))) + 1));
-							((Slot) ((Map) invobj).get((int) (23))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(TourchStripeWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (30))) + 1));
-							((Slot) ((Map) invobj).get((int) (30))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(HorzTorchBananaDarkStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (37))) + 1));
-							((Slot) ((Map) invobj).get((int) (37))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(HorzTorchBrownWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (3))) + 1));
-							((Slot) ((Map) invobj).get((int) (3))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(HorzTorchStripeWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (10))) + 1));
-							((Slot) ((Map) invobj).get((int) (10))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(HorzTorchBananaStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (17))) + 1));
-							((Slot) ((Map) invobj).get((int) (17))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (24))), 1));
-							((Slot) ((Map) invobj).get((int) (24))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (31))), 1));
-							((Slot) ((Map) invobj).get((int) (31))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (38))), 1));
-							((Slot) ((Map) invobj).get((int) (38))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (4))), 1));
-							((Slot) ((Map) invobj).get((int) (4))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (11))), 1));
-							((Slot) ((Map) invobj).get((int) (11))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (18))), 1));
-							((Slot) ((Map) invobj).get((int) (18))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (25))), 1));
-							((Slot) ((Map) invobj).get((int) (25))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (32))), 1));
-							((Slot) ((Map) invobj).get((int) (32))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (39))), 1));
-							((Slot) ((Map) invobj).get((int) (39))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (5))), 1));
-							((Slot) ((Map) invobj).get((int) (5))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (12))), 1));
-							((Slot) ((Map) invobj).get((int) (12))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (19))), 1));
-							((Slot) ((Map) invobj).get((int) (19))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (26))), 1));
-							((Slot) ((Map) invobj).get((int) (26))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (33))), 1));
-							((Slot) ((Map) invobj).get((int) (33))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (40))), 1));
-							((Slot) ((Map) invobj).get((int) (40))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (6))), 1));
-							((Slot) ((Map) invobj).get((int) (6))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (13))), 1));
-							((Slot) ((Map) invobj).get((int) (13))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (20))), 1));
-							((Slot) ((Map) invobj).get((int) (20))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (27))), 1));
-							((Slot) ((Map) invobj).get((int) (27))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (34))), 1));
-							((Slot) ((Map) invobj).get((int) (34))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (41))), 1));
-							((Slot) ((Map) invobj).get((int) (41))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (7))), 1));
-							((Slot) ((Map) invobj).get((int) (7))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (14))), 1));
-							((Slot) ((Map) invobj).get((int) (14))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (21))), 1));
-							((Slot) ((Map) invobj).get((int) (21))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (28))), 1));
-							((Slot) ((Map) invobj).get((int) (28))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (35))), 1));
-							((Slot) ((Map) invobj).get((int) (35))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (42))), 1));
-							((Slot) ((Map) invobj).get((int) (42))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (8))), 1));
-							((Slot) ((Map) invobj).get((int) (8))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (15))), 1));
-							((Slot) ((Map) invobj).get((int) (15))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (22))), 1));
-							((Slot) ((Map) invobj).get((int) (22))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (29))), 1));
-							((Slot) ((Map) invobj).get((int) (29))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (36))), 1));
-							((Slot) ((Map) invobj).get((int) (36))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (43))), 1));
-							((Slot) ((Map) invobj).get((int) (43))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-			}
-			if ((((new Object() {
-				public ItemStack getItemStack(int sltid) {
-					Entity _ent = entity;
-					if (_ent instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) _ent).openContainer;
-						if (_current instanceof Supplier) {
-							Object invobj = ((Supplier) _current).get();
-							if (invobj instanceof Map) {
-								return ((Slot) ((Map) invobj).get(sltid)).getStack();
-							}
-						}
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack((int) (0))).getItem() == Blocks.SPRUCE_PLANKS.asItem()) && ((new Object() {
-				public ItemStack getItemStack(int sltid) {
-					Entity _ent = entity;
-					if (_ent instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) _ent).openContainer;
-						if (_current instanceof Supplier) {
-							Object invobj = ((Supplier) _current).get();
-							if (invobj instanceof Map) {
-								return ((Slot) ((Map) invobj).get(sltid)).getStack();
-							}
-						}
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack((int) (1))).getItem() == Blocks.TORCH.asItem()))) {
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(TorchBananaDarkStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (2))) + 1));
-							((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(TorchBananaStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (9))) + 1));
-							((Slot) ((Map) invobj).get((int) (9))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(TorchBananaWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (16))) + 1));
-							((Slot) ((Map) invobj).get((int) (16))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(TorchBlackWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (23))) + 1));
-							((Slot) ((Map) invobj).get((int) (23))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(TourchStripeWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (30))) + 1));
-							((Slot) ((Map) invobj).get((int) (30))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(HorzTorchBananaDarkStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (37))) + 1));
-							((Slot) ((Map) invobj).get((int) (37))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(HorzTorchBrownWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (3))) + 1));
-							((Slot) ((Map) invobj).get((int) (3))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(HorzTorchStripeWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (10))) + 1));
-							((Slot) ((Map) invobj).get((int) (10))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(HorzTorchBananaStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (17))) + 1));
-							((Slot) ((Map) invobj).get((int) (17))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (24))), 1));
-							((Slot) ((Map) invobj).get((int) (24))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (31))), 1));
-							((Slot) ((Map) invobj).get((int) (31))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (38))), 1));
-							((Slot) ((Map) invobj).get((int) (38))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (4))), 1));
-							((Slot) ((Map) invobj).get((int) (4))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (11))), 1));
-							((Slot) ((Map) invobj).get((int) (11))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (18))), 1));
-							((Slot) ((Map) invobj).get((int) (18))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (25))), 1));
-							((Slot) ((Map) invobj).get((int) (25))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (32))), 1));
-							((Slot) ((Map) invobj).get((int) (32))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (39))), 1));
-							((Slot) ((Map) invobj).get((int) (39))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (5))), 1));
-							((Slot) ((Map) invobj).get((int) (5))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (12))), 1));
-							((Slot) ((Map) invobj).get((int) (12))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (19))), 1));
-							((Slot) ((Map) invobj).get((int) (19))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (26))), 1));
-							((Slot) ((Map) invobj).get((int) (26))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (33))), 1));
-							((Slot) ((Map) invobj).get((int) (33))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (40))), 1));
-							((Slot) ((Map) invobj).get((int) (40))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (6))), 1));
-							((Slot) ((Map) invobj).get((int) (6))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (13))), 1));
-							((Slot) ((Map) invobj).get((int) (13))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (20))), 1));
-							((Slot) ((Map) invobj).get((int) (20))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (27))), 1));
-							((Slot) ((Map) invobj).get((int) (27))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (34))), 1));
-							((Slot) ((Map) invobj).get((int) (34))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (41))), 1));
-							((Slot) ((Map) invobj).get((int) (41))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (7))), 1));
-							((Slot) ((Map) invobj).get((int) (7))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (14))), 1));
-							((Slot) ((Map) invobj).get((int) (14))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (21))), 1));
-							((Slot) ((Map) invobj).get((int) (21))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (28))), 1));
-							((Slot) ((Map) invobj).get((int) (28))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (35))), 1));
-							((Slot) ((Map) invobj).get((int) (35))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (42))), 1));
-							((Slot) ((Map) invobj).get((int) (42))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (8))), 1));
-							((Slot) ((Map) invobj).get((int) (8))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (15))), 1));
-							((Slot) ((Map) invobj).get((int) (15))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (22))), 1));
-							((Slot) ((Map) invobj).get((int) (22))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (29))), 1));
-							((Slot) ((Map) invobj).get((int) (29))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (36))), 1));
-							((Slot) ((Map) invobj).get((int) (36))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (43))), 1));
-							((Slot) ((Map) invobj).get((int) (43))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-			}
-			if ((((new Object() {
-				public ItemStack getItemStack(int sltid) {
-					Entity _ent = entity;
-					if (_ent instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) _ent).openContainer;
-						if (_current instanceof Supplier) {
-							Object invobj = ((Supplier) _current).get();
-							if (invobj instanceof Map) {
-								return ((Slot) ((Map) invobj).get(sltid)).getStack();
-							}
-						}
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack((int) (0))).getItem() == Blocks.JUNGLE_PLANKS.asItem()) && ((new Object() {
-				public ItemStack getItemStack(int sltid) {
-					Entity _ent = entity;
-					if (_ent instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) _ent).openContainer;
-						if (_current instanceof Supplier) {
-							Object invobj = ((Supplier) _current).get();
-							if (invobj instanceof Map) {
-								return ((Slot) ((Map) invobj).get(sltid)).getStack();
-							}
-						}
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack((int) (1))).getItem() == Blocks.TORCH.asItem()))) {
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(TorchBananaDarkStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (2))) + 1));
-							((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(TorchBananaStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (9))) + 1));
-							((Slot) ((Map) invobj).get((int) (9))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(TorchBananaWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (16))) + 1));
-							((Slot) ((Map) invobj).get((int) (16))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(TorchBlackWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (23))) + 1));
-							((Slot) ((Map) invobj).get((int) (23))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(TourchStripeWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (30))) + 1));
-							((Slot) ((Map) invobj).get((int) (30))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(HorzTorchBananaDarkStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (37))) + 1));
-							((Slot) ((Map) invobj).get((int) (37))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(HorzTorchBrownWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (3))) + 1));
-							((Slot) ((Map) invobj).get((int) (3))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(HorzTorchStripeWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (10))) + 1));
-							((Slot) ((Map) invobj).get((int) (10))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(HorzTorchBananaStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (17))) + 1));
-							((Slot) ((Map) invobj).get((int) (17))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (24))), 1));
-							((Slot) ((Map) invobj).get((int) (24))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (31))), 1));
-							((Slot) ((Map) invobj).get((int) (31))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (38))), 1));
-							((Slot) ((Map) invobj).get((int) (38))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (4))), 1));
-							((Slot) ((Map) invobj).get((int) (4))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (11))), 1));
-							((Slot) ((Map) invobj).get((int) (11))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (18))), 1));
-							((Slot) ((Map) invobj).get((int) (18))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (25))), 1));
-							((Slot) ((Map) invobj).get((int) (25))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (32))), 1));
-							((Slot) ((Map) invobj).get((int) (32))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (39))), 1));
-							((Slot) ((Map) invobj).get((int) (39))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (5))), 1));
-							((Slot) ((Map) invobj).get((int) (5))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (12))), 1));
-							((Slot) ((Map) invobj).get((int) (12))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (19))), 1));
-							((Slot) ((Map) invobj).get((int) (19))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (26))), 1));
-							((Slot) ((Map) invobj).get((int) (26))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (33))), 1));
-							((Slot) ((Map) invobj).get((int) (33))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (40))), 1));
-							((Slot) ((Map) invobj).get((int) (40))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (6))), 1));
-							((Slot) ((Map) invobj).get((int) (6))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (13))), 1));
-							((Slot) ((Map) invobj).get((int) (13))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (20))), 1));
-							((Slot) ((Map) invobj).get((int) (20))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (27))), 1));
-							((Slot) ((Map) invobj).get((int) (27))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (34))), 1));
-							((Slot) ((Map) invobj).get((int) (34))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (41))), 1));
-							((Slot) ((Map) invobj).get((int) (41))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (7))), 1));
-							((Slot) ((Map) invobj).get((int) (7))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (14))), 1));
-							((Slot) ((Map) invobj).get((int) (14))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (21))), 1));
-							((Slot) ((Map) invobj).get((int) (21))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (28))), 1));
-							((Slot) ((Map) invobj).get((int) (28))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (35))), 1));
-							((Slot) ((Map) invobj).get((int) (35))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (42))), 1));
-							((Slot) ((Map) invobj).get((int) (42))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (8))), 1));
-							((Slot) ((Map) invobj).get((int) (8))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (15))), 1));
-							((Slot) ((Map) invobj).get((int) (15))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (22))), 1));
-							((Slot) ((Map) invobj).get((int) (22))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (29))), 1));
-							((Slot) ((Map) invobj).get((int) (29))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (36))), 1));
-							((Slot) ((Map) invobj).get((int) (36))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (43))), 1));
-							((Slot) ((Map) invobj).get((int) (43))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-			}
-			if ((((new Object() {
-				public ItemStack getItemStack(int sltid) {
-					Entity _ent = entity;
-					if (_ent instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) _ent).openContainer;
-						if (_current instanceof Supplier) {
-							Object invobj = ((Supplier) _current).get();
-							if (invobj instanceof Map) {
-								return ((Slot) ((Map) invobj).get(sltid)).getStack();
-							}
-						}
-					}
-					return ItemStack.EMPTY;
-				}
 			}.getItemStack((int) (0))).getItem() == Blocks.BIRCH_PLANKS.asItem()) && ((new Object() {
 				public ItemStack getItemStack(int sltid) {
 					Entity _ent = entity;
@@ -3573,7 +81,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(TorchBananaDarkStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3588,7 +96,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (2))) + 1));
+							}.getAmount((int) (2))), 1));
 							((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -3600,7 +108,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(TorchBananaStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3615,7 +123,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (9))) + 1));
+							}.getAmount((int) (9))), 1));
 							((Slot) ((Map) invobj).get((int) (9))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -3627,7 +135,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(TorchBananaWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3642,7 +150,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (16))) + 1));
+							}.getAmount((int) (16))), 1));
 							((Slot) ((Map) invobj).get((int) (16))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -3654,7 +162,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(TorchBlackWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3669,7 +177,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (23))) + 1));
+							}.getAmount((int) (23))), 1));
 							((Slot) ((Map) invobj).get((int) (23))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -3681,7 +189,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(TourchStripeWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3696,7 +204,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (30))) + 1));
+							}.getAmount((int) (30))), 1));
 							((Slot) ((Map) invobj).get((int) (30))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -3708,7 +216,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(HorzTorchBananaDarkStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3723,7 +231,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (37))) + 1));
+							}.getAmount((int) (37))), 1));
 							((Slot) ((Map) invobj).get((int) (37))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -3735,7 +243,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(HorzTorchBrownWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3750,7 +258,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (3))) + 1));
+							}.getAmount((int) (3))), 1));
 							((Slot) ((Map) invobj).get((int) (3))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -3762,7 +270,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(HorzTorchStripeWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3777,7 +285,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (10))) + 1));
+							}.getAmount((int) (10))), 1));
 							((Slot) ((Map) invobj).get((int) (10))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -3789,7 +297,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(HorzTorchBananaStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -3804,899 +312,338 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (17))) + 1));
+							}.getAmount((int) (17))), 1));
 							((Slot) ((Map) invobj).get((int) (17))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (24))), 1));
-							((Slot) ((Map) invobj).get((int) (24))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (24))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (31))), 1));
-							((Slot) ((Map) invobj).get((int) (31))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (31))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (38))), 1));
-							((Slot) ((Map) invobj).get((int) (38))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (38))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (4))), 1));
-							((Slot) ((Map) invobj).get((int) (4))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (4))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (11))), 1));
-							((Slot) ((Map) invobj).get((int) (11))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (11))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (18))), 1));
-							((Slot) ((Map) invobj).get((int) (18))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (18))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (25))), 1));
-							((Slot) ((Map) invobj).get((int) (25))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (25))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (32))), 1));
-							((Slot) ((Map) invobj).get((int) (32))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (32))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (39))), 1));
-							((Slot) ((Map) invobj).get((int) (39))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (39))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (5))), 1));
-							((Slot) ((Map) invobj).get((int) (5))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (5))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (12))), 1));
-							((Slot) ((Map) invobj).get((int) (12))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (12))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (19))), 1));
-							((Slot) ((Map) invobj).get((int) (19))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (19))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (26))), 1));
-							((Slot) ((Map) invobj).get((int) (26))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (26))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (33))), 1));
-							((Slot) ((Map) invobj).get((int) (33))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (33))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (40))), 1));
-							((Slot) ((Map) invobj).get((int) (40))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (40))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (6))), 1));
-							((Slot) ((Map) invobj).get((int) (6))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (6))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (13))), 1));
-							((Slot) ((Map) invobj).get((int) (13))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (13))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (20))), 1));
-							((Slot) ((Map) invobj).get((int) (20))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (20))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (27))), 1));
-							((Slot) ((Map) invobj).get((int) (27))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (27))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (34))), 1));
-							((Slot) ((Map) invobj).get((int) (34))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (34))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (41))), 1));
-							((Slot) ((Map) invobj).get((int) (41))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (41))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (7))), 1));
-							((Slot) ((Map) invobj).get((int) (7))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (7))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (14))), 1));
-							((Slot) ((Map) invobj).get((int) (14))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (14))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (21))), 1));
-							((Slot) ((Map) invobj).get((int) (21))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (21))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (28))), 1));
-							((Slot) ((Map) invobj).get((int) (28))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (28))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (35))), 1));
-							((Slot) ((Map) invobj).get((int) (35))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (35))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (42))), 1));
-							((Slot) ((Map) invobj).get((int) (42))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (42))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (8))), 1));
-							((Slot) ((Map) invobj).get((int) (8))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (8))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (15))), 1));
-							((Slot) ((Map) invobj).get((int) (15))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (15))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (22))), 1));
-							((Slot) ((Map) invobj).get((int) (22))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (22))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (29))), 1));
-							((Slot) ((Map) invobj).get((int) (29))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (29))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (36))), 1));
-							((Slot) ((Map) invobj).get((int) (36))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (36))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (43))), 1));
-							((Slot) ((Map) invobj).get((int) (43))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (43))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -4716,7 +663,7 @@ public class TorchLogicProcedure {
 					}
 					return ItemStack.EMPTY;
 				}
-			}.getItemStack((int) (0))).getItem() == Blocks.ACACIA_PLANKS.asItem()) && ((new Object() {
+			}.getItemStack((int) (0))).getItem() == Blocks.OAK_PLANKS.asItem()) && ((new Object() {
 				public ItemStack getItemStack(int sltid) {
 					Entity _ent = entity;
 					if (_ent instanceof ServerPlayerEntity) {
@@ -4737,7 +684,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(TorchBananaDarkStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -4752,7 +699,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (2))) + 1));
+							}.getAmount((int) (2))), 1));
 							((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -4764,7 +711,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(TorchBananaStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -4779,7 +726,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (9))) + 1));
+							}.getAmount((int) (9))), 1));
 							((Slot) ((Map) invobj).get((int) (9))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -4791,7 +738,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(TorchBananaWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -4806,7 +753,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (16))) + 1));
+							}.getAmount((int) (16))), 1));
 							((Slot) ((Map) invobj).get((int) (16))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -4818,7 +765,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(TorchBlackWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -4833,7 +780,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (23))) + 1));
+							}.getAmount((int) (23))), 1));
 							((Slot) ((Map) invobj).get((int) (23))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -4845,7 +792,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(TourchStripeWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -4860,7 +807,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (30))) + 1));
+							}.getAmount((int) (30))), 1));
 							((Slot) ((Map) invobj).get((int) (30))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -4872,7 +819,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(HorzTorchBananaDarkStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -4887,7 +834,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (37))) + 1));
+							}.getAmount((int) (37))), 1));
 							((Slot) ((Map) invobj).get((int) (37))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -4899,7 +846,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(HorzTorchBrownWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -4914,7 +861,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (3))) + 1));
+							}.getAmount((int) (3))), 1));
 							((Slot) ((Map) invobj).get((int) (3))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -4926,7 +873,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(HorzTorchStripeWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -4941,7 +888,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (10))) + 1));
+							}.getAmount((int) (10))), 1));
 							((Slot) ((Map) invobj).get((int) (10))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -4953,7 +900,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(HorzTorchBananaStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -4968,899 +915,338 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (17))) + 1));
+							}.getAmount((int) (17))), 1));
 							((Slot) ((Map) invobj).get((int) (17))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (24))), 1));
-							((Slot) ((Map) invobj).get((int) (24))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (24))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (31))), 1));
-							((Slot) ((Map) invobj).get((int) (31))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (31))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (38))), 1));
-							((Slot) ((Map) invobj).get((int) (38))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (38))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (4))), 1));
-							((Slot) ((Map) invobj).get((int) (4))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (4))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (11))), 1));
-							((Slot) ((Map) invobj).get((int) (11))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (11))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (18))), 1));
-							((Slot) ((Map) invobj).get((int) (18))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (18))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (25))), 1));
-							((Slot) ((Map) invobj).get((int) (25))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (25))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (32))), 1));
-							((Slot) ((Map) invobj).get((int) (32))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (32))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (39))), 1));
-							((Slot) ((Map) invobj).get((int) (39))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (39))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (5))), 1));
-							((Slot) ((Map) invobj).get((int) (5))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (5))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (12))), 1));
-							((Slot) ((Map) invobj).get((int) (12))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (12))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (19))), 1));
-							((Slot) ((Map) invobj).get((int) (19))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (19))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (26))), 1));
-							((Slot) ((Map) invobj).get((int) (26))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (26))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (33))), 1));
-							((Slot) ((Map) invobj).get((int) (33))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (33))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (40))), 1));
-							((Slot) ((Map) invobj).get((int) (40))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (40))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (6))), 1));
-							((Slot) ((Map) invobj).get((int) (6))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (6))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (13))), 1));
-							((Slot) ((Map) invobj).get((int) (13))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (13))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (20))), 1));
-							((Slot) ((Map) invobj).get((int) (20))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (20))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (27))), 1));
-							((Slot) ((Map) invobj).get((int) (27))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (27))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (34))), 1));
-							((Slot) ((Map) invobj).get((int) (34))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (34))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (41))), 1));
-							((Slot) ((Map) invobj).get((int) (41))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (41))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (7))), 1));
-							((Slot) ((Map) invobj).get((int) (7))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (7))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (14))), 1));
-							((Slot) ((Map) invobj).get((int) (14))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (14))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (21))), 1));
-							((Slot) ((Map) invobj).get((int) (21))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (21))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (28))), 1));
-							((Slot) ((Map) invobj).get((int) (28))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (28))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (35))), 1));
-							((Slot) ((Map) invobj).get((int) (35))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (35))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (42))), 1));
-							((Slot) ((Map) invobj).get((int) (42))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (42))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (8))), 1));
-							((Slot) ((Map) invobj).get((int) (8))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (8))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (15))), 1));
-							((Slot) ((Map) invobj).get((int) (15))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (15))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (22))), 1));
-							((Slot) ((Map) invobj).get((int) (22))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (22))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (29))), 1));
-							((Slot) ((Map) invobj).get((int) (29))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (29))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (36))), 1));
-							((Slot) ((Map) invobj).get((int) (36))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (36))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (43))), 1));
-							((Slot) ((Map) invobj).get((int) (43))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (43))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -5901,7 +1287,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(TorchBananaDarkStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -5916,7 +1302,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (2))) + 1));
+							}.getAmount((int) (2))), 1));
 							((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -5928,7 +1314,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(TorchBananaStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -5943,7 +1329,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (9))) + 1));
+							}.getAmount((int) (9))), 1));
 							((Slot) ((Map) invobj).get((int) (9))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -5955,7 +1341,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(TorchBananaWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -5970,7 +1356,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (16))) + 1));
+							}.getAmount((int) (16))), 1));
 							((Slot) ((Map) invobj).get((int) (16))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -5982,7 +1368,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(TorchBlackWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -5997,7 +1383,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (23))) + 1));
+							}.getAmount((int) (23))), 1));
 							((Slot) ((Map) invobj).get((int) (23))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -6009,7 +1395,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(TourchStripeWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -6024,7 +1410,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (30))) + 1));
+							}.getAmount((int) (30))), 1));
 							((Slot) ((Map) invobj).get((int) (30))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -6036,7 +1422,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(HorzTorchBananaDarkStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -6051,7 +1437,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (37))) + 1));
+							}.getAmount((int) (37))), 1));
 							((Slot) ((Map) invobj).get((int) (37))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -6063,7 +1449,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(HorzTorchBrownWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -6078,7 +1464,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (3))) + 1));
+							}.getAmount((int) (3))), 1));
 							((Slot) ((Map) invobj).get((int) (3))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -6090,7 +1476,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(HorzTorchStripeWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -6105,7 +1491,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (10))) + 1));
+							}.getAmount((int) (10))), 1));
 							((Slot) ((Map) invobj).get((int) (10))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -6117,7 +1503,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(HorzTorchBananaStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -6132,2063 +1518,338 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (17))) + 1));
+							}.getAmount((int) (17))), 1));
 							((Slot) ((Map) invobj).get((int) (17))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (24))), 1));
-							((Slot) ((Map) invobj).get((int) (24))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (24))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (31))), 1));
-							((Slot) ((Map) invobj).get((int) (31))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (31))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (38))), 1));
-							((Slot) ((Map) invobj).get((int) (38))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (38))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (4))), 1));
-							((Slot) ((Map) invobj).get((int) (4))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (4))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (11))), 1));
-							((Slot) ((Map) invobj).get((int) (11))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (11))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (18))), 1));
-							((Slot) ((Map) invobj).get((int) (18))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (18))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (25))), 1));
-							((Slot) ((Map) invobj).get((int) (25))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (25))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (32))), 1));
-							((Slot) ((Map) invobj).get((int) (32))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (32))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (39))), 1));
-							((Slot) ((Map) invobj).get((int) (39))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (39))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (5))), 1));
-							((Slot) ((Map) invobj).get((int) (5))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (5))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (12))), 1));
-							((Slot) ((Map) invobj).get((int) (12))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (12))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (19))), 1));
-							((Slot) ((Map) invobj).get((int) (19))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (19))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (26))), 1));
-							((Slot) ((Map) invobj).get((int) (26))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (26))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (33))), 1));
-							((Slot) ((Map) invobj).get((int) (33))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (33))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (40))), 1));
-							((Slot) ((Map) invobj).get((int) (40))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (40))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (6))), 1));
-							((Slot) ((Map) invobj).get((int) (6))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (6))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (13))), 1));
-							((Slot) ((Map) invobj).get((int) (13))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (13))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (20))), 1));
-							((Slot) ((Map) invobj).get((int) (20))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (20))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (27))), 1));
-							((Slot) ((Map) invobj).get((int) (27))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (27))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (34))), 1));
-							((Slot) ((Map) invobj).get((int) (34))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (34))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (41))), 1));
-							((Slot) ((Map) invobj).get((int) (41))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (41))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (7))), 1));
-							((Slot) ((Map) invobj).get((int) (7))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (7))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (14))), 1));
-							((Slot) ((Map) invobj).get((int) (14))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (14))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (21))), 1));
-							((Slot) ((Map) invobj).get((int) (21))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (21))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (28))), 1));
-							((Slot) ((Map) invobj).get((int) (28))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (28))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (35))), 1));
-							((Slot) ((Map) invobj).get((int) (35))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (35))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (42))), 1));
-							((Slot) ((Map) invobj).get((int) (42))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (42))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (8))), 1));
-							((Slot) ((Map) invobj).get((int) (8))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (8))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (15))), 1));
-							((Slot) ((Map) invobj).get((int) (15))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (15))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (22))), 1));
-							((Slot) ((Map) invobj).get((int) (22))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (22))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (29))), 1));
-							((Slot) ((Map) invobj).get((int) (29))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (29))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (36))), 1));
-							((Slot) ((Map) invobj).get((int) (36))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (36))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (43))), 1));
-							((Slot) ((Map) invobj).get((int) (43))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-			}
-			if ((((new Object() {
-				public ItemStack getItemStack(int sltid) {
-					Entity _ent = entity;
-					if (_ent instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) _ent).openContainer;
-						if (_current instanceof Supplier) {
-							Object invobj = ((Supplier) _current).get();
-							if (invobj instanceof Map) {
-								return ((Slot) ((Map) invobj).get(sltid)).getStack();
-							}
-						}
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack((int) (0))).getItem() == Blocks.CRIMSON_PLANKS.asItem()) && ((new Object() {
-				public ItemStack getItemStack(int sltid) {
-					Entity _ent = entity;
-					if (_ent instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) _ent).openContainer;
-						if (_current instanceof Supplier) {
-							Object invobj = ((Supplier) _current).get();
-							if (invobj instanceof Map) {
-								return ((Slot) ((Map) invobj).get(sltid)).getStack();
-							}
-						}
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack((int) (1))).getItem() == Blocks.TORCH.asItem()))) {
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(TorchBananaDarkStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (2))) + 1));
-							((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(TorchBananaStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (9))) + 1));
-							((Slot) ((Map) invobj).get((int) (9))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(TorchBananaWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (16))) + 1));
-							((Slot) ((Map) invobj).get((int) (16))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(TorchBlackWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (23))) + 1));
-							((Slot) ((Map) invobj).get((int) (23))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(TourchStripeWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (30))) + 1));
-							((Slot) ((Map) invobj).get((int) (30))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(HorzTorchBananaDarkStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (37))) + 1));
-							((Slot) ((Map) invobj).get((int) (37))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(HorzTorchBrownWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (3))) + 1));
-							((Slot) ((Map) invobj).get((int) (3))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(HorzTorchStripeWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (10))) + 1));
-							((Slot) ((Map) invobj).get((int) (10))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(HorzTorchBananaStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (17))) + 1));
-							((Slot) ((Map) invobj).get((int) (17))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (24))), 1));
-							((Slot) ((Map) invobj).get((int) (24))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (31))), 1));
-							((Slot) ((Map) invobj).get((int) (31))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (38))), 1));
-							((Slot) ((Map) invobj).get((int) (38))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (4))), 1));
-							((Slot) ((Map) invobj).get((int) (4))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (11))), 1));
-							((Slot) ((Map) invobj).get((int) (11))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (18))), 1));
-							((Slot) ((Map) invobj).get((int) (18))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (25))), 1));
-							((Slot) ((Map) invobj).get((int) (25))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (32))), 1));
-							((Slot) ((Map) invobj).get((int) (32))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (39))), 1));
-							((Slot) ((Map) invobj).get((int) (39))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (5))), 1));
-							((Slot) ((Map) invobj).get((int) (5))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (12))), 1));
-							((Slot) ((Map) invobj).get((int) (12))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (19))), 1));
-							((Slot) ((Map) invobj).get((int) (19))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (26))), 1));
-							((Slot) ((Map) invobj).get((int) (26))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (33))), 1));
-							((Slot) ((Map) invobj).get((int) (33))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (40))), 1));
-							((Slot) ((Map) invobj).get((int) (40))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (6))), 1));
-							((Slot) ((Map) invobj).get((int) (6))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (13))), 1));
-							((Slot) ((Map) invobj).get((int) (13))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (20))), 1));
-							((Slot) ((Map) invobj).get((int) (20))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (27))), 1));
-							((Slot) ((Map) invobj).get((int) (27))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (34))), 1));
-							((Slot) ((Map) invobj).get((int) (34))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (41))), 1));
-							((Slot) ((Map) invobj).get((int) (41))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (7))), 1));
-							((Slot) ((Map) invobj).get((int) (7))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (14))), 1));
-							((Slot) ((Map) invobj).get((int) (14))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (21))), 1));
-							((Slot) ((Map) invobj).get((int) (21))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (28))), 1));
-							((Slot) ((Map) invobj).get((int) (28))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (35))), 1));
-							((Slot) ((Map) invobj).get((int) (35))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (42))), 1));
-							((Slot) ((Map) invobj).get((int) (42))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (8))), 1));
-							((Slot) ((Map) invobj).get((int) (8))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (15))), 1));
-							((Slot) ((Map) invobj).get((int) (15))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (22))), 1));
-							((Slot) ((Map) invobj).get((int) (22))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (29))), 1));
-							((Slot) ((Map) invobj).get((int) (29))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (36))), 1));
-							((Slot) ((Map) invobj).get((int) (36))).putStack(_setstack);
-							_current.detectAndSendChanges();
-						}
-					}
-				}
-				if (entity instanceof PlayerEntity) {
-					Container _current = ((PlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
-							_setstack.setCount((int) Math.max((new Object() {
-								public int getAmount(int sltid) {
-									if (entity instanceof ServerPlayerEntity) {
-										Container _current = ((ServerPlayerEntity) entity).openContainer;
-										if (_current instanceof Supplier) {
-											Object invobj = ((Supplier) _current).get();
-											if (invobj instanceof Map) {
-												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-												if (stack != null)
-													return stack.getCount();
-											}
-										}
-									}
-									return 0;
-								}
-							}.getAmount((int) (43))), 1));
-							((Slot) ((Map) invobj).get((int) (43))).putStack(_setstack);
+							((Slot) ((Map) invobj).get((int) (43))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -8229,7 +1890,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(TorchBananaDarkStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -8244,7 +1905,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (2))) + 1));
+							}.getAmount((int) (2))), 1));
 							((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -8256,7 +1917,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(TorchBananaStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -8271,7 +1932,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (9))) + 1));
+							}.getAmount((int) (9))), 1));
 							((Slot) ((Map) invobj).get((int) (9))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -8283,7 +1944,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(TorchBananaWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -8298,7 +1959,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (16))) + 1));
+							}.getAmount((int) (16))), 1));
 							((Slot) ((Map) invobj).get((int) (16))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -8310,7 +1971,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(TorchBlackWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -8325,7 +1986,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (23))) + 1));
+							}.getAmount((int) (23))), 1));
 							((Slot) ((Map) invobj).get((int) (23))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -8337,7 +1998,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(TourchStripeWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -8352,7 +2013,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (30))) + 1));
+							}.getAmount((int) (30))), 1));
 							((Slot) ((Map) invobj).get((int) (30))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -8364,7 +2025,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(HorzTorchBananaDarkStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -8379,7 +2040,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (37))) + 1));
+							}.getAmount((int) (37))), 1));
 							((Slot) ((Map) invobj).get((int) (37))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -8391,7 +2052,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(HorzTorchBrownWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -8406,7 +2067,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (3))) + 1));
+							}.getAmount((int) (3))), 1));
 							((Slot) ((Map) invobj).get((int) (3))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -8418,7 +2079,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(HorzTorchStripeWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -8433,7 +2094,7 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (10))) + 1));
+							}.getAmount((int) (10))), 1));
 							((Slot) ((Map) invobj).get((int) (10))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -8445,7 +2106,7 @@ public class TorchLogicProcedure {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
 							ItemStack _setstack = new ItemStack(HorzTorchBananaStripedWoodBlock.block);
-							_setstack.setCount((int) ((new Object() {
+							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
 										Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -8460,18 +2121,378 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (17))) + 1));
+							}.getAmount((int) (17))), 1));
 							((Slot) ((Map) invobj).get((int) (17))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
 				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (24))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (31))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (38))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (4))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (11))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (18))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (25))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (32))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (39))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (5))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (12))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (19))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (26))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (33))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (40))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (6))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (13))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (20))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (27))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (34))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (41))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (7))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (14))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (21))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (28))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (35))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (42))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (8))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (15))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (22))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (29))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (36))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (43))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+			}
+			if ((((new Object() {
+				public ItemStack getItemStack(int sltid) {
+					Entity _ent = entity;
+					if (_ent instanceof ServerPlayerEntity) {
+						Container _current = ((ServerPlayerEntity) _ent).openContainer;
+						if (_current instanceof Supplier) {
+							Object invobj = ((Supplier) _current).get();
+							if (invobj instanceof Map) {
+								return ((Slot) ((Map) invobj).get(sltid)).getStack();
+							}
+						}
+					}
+					return ItemStack.EMPTY;
+				}
+			}.getItemStack((int) (0))).getItem() == Blocks.CRIMSON_PLANKS.asItem()) && ((new Object() {
+				public ItemStack getItemStack(int sltid) {
+					Entity _ent = entity;
+					if (_ent instanceof ServerPlayerEntity) {
+						Container _current = ((ServerPlayerEntity) _ent).openContainer;
+						if (_current instanceof Supplier) {
+							Object invobj = ((Supplier) _current).get();
+							if (invobj instanceof Map) {
+								return ((Slot) ((Map) invobj).get(sltid)).getStack();
+							}
+						}
+					}
+					return ItemStack.EMPTY;
+				}
+			}.getItemStack((int) (1))).getItem() == Blocks.TORCH.asItem()))) {
 				if (entity instanceof PlayerEntity) {
 					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(TorchBananaDarkStripedWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -8487,8 +2508,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (24))), 1));
-							((Slot) ((Map) invobj).get((int) (24))).putStack(_setstack);
+							}.getAmount((int) (2))), 1));
+							((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -8498,7 +2519,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(TorchBananaStripedWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -8514,8 +2535,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (31))), 1));
-							((Slot) ((Map) invobj).get((int) (31))).putStack(_setstack);
+							}.getAmount((int) (9))), 1));
+							((Slot) ((Map) invobj).get((int) (9))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -8525,7 +2546,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(TorchBananaWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -8541,8 +2562,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (38))), 1));
-							((Slot) ((Map) invobj).get((int) (38))).putStack(_setstack);
+							}.getAmount((int) (16))), 1));
+							((Slot) ((Map) invobj).get((int) (16))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -8552,7 +2573,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(TorchBlackWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -8568,8 +2589,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (4))), 1));
-							((Slot) ((Map) invobj).get((int) (4))).putStack(_setstack);
+							}.getAmount((int) (23))), 1));
+							((Slot) ((Map) invobj).get((int) (23))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -8579,7 +2600,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(TourchStripeWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -8595,8 +2616,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (11))), 1));
-							((Slot) ((Map) invobj).get((int) (11))).putStack(_setstack);
+							}.getAmount((int) (30))), 1));
+							((Slot) ((Map) invobj).get((int) (30))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -8606,7 +2627,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(HorzTorchBananaDarkStripedWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -8622,8 +2643,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (18))), 1));
-							((Slot) ((Map) invobj).get((int) (18))).putStack(_setstack);
+							}.getAmount((int) (37))), 1));
+							((Slot) ((Map) invobj).get((int) (37))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -8633,7 +2654,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(HorzTorchBrownWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -8649,8 +2670,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (25))), 1));
-							((Slot) ((Map) invobj).get((int) (25))).putStack(_setstack);
+							}.getAmount((int) (3))), 1));
+							((Slot) ((Map) invobj).get((int) (3))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -8660,7 +2681,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(HorzTorchStripeWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -8676,8 +2697,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (32))), 1));
-							((Slot) ((Map) invobj).get((int) (32))).putStack(_setstack);
+							}.getAmount((int) (10))), 1));
+							((Slot) ((Map) invobj).get((int) (10))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -8687,7 +2708,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(HorzTorchBananaStripedWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -8703,8 +2724,395 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (39))), 1));
-							((Slot) ((Map) invobj).get((int) (39))).putStack(_setstack);
+							}.getAmount((int) (17))), 1));
+							((Slot) ((Map) invobj).get((int) (17))).putStack(_setstack);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (24))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (31))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (38))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (4))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (11))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (18))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (25))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (32))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (39))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (5))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (12))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (19))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (26))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (33))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (40))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (6))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (13))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (20))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (27))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (34))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (41))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (7))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (14))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (21))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (28))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (35))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (42))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (8))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (15))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (22))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (29))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (36))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (43))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+			}
+			if ((((new Object() {
+				public ItemStack getItemStack(int sltid) {
+					Entity _ent = entity;
+					if (_ent instanceof ServerPlayerEntity) {
+						Container _current = ((ServerPlayerEntity) _ent).openContainer;
+						if (_current instanceof Supplier) {
+							Object invobj = ((Supplier) _current).get();
+							if (invobj instanceof Map) {
+								return ((Slot) ((Map) invobj).get(sltid)).getStack();
+							}
+						}
+					}
+					return ItemStack.EMPTY;
+				}
+			}.getItemStack((int) (0))).getItem() == Blocks.SPRUCE_PLANKS.asItem()) && ((new Object() {
+				public ItemStack getItemStack(int sltid) {
+					Entity _ent = entity;
+					if (_ent instanceof ServerPlayerEntity) {
+						Container _current = ((ServerPlayerEntity) _ent).openContainer;
+						if (_current instanceof Supplier) {
+							Object invobj = ((Supplier) _current).get();
+							if (invobj instanceof Map) {
+								return ((Slot) ((Map) invobj).get(sltid)).getStack();
+							}
+						}
+					}
+					return ItemStack.EMPTY;
+				}
+			}.getItemStack((int) (1))).getItem() == Blocks.TORCH.asItem()))) {
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							ItemStack _setstack = new ItemStack(TorchBananaDarkStripedWoodBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (2))), 1));
+							((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -8714,7 +3122,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(TorchBananaStripedWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -8730,8 +3138,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (5))), 1));
-							((Slot) ((Map) invobj).get((int) (5))).putStack(_setstack);
+							}.getAmount((int) (9))), 1));
+							((Slot) ((Map) invobj).get((int) (9))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -8741,7 +3149,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(TorchBananaWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -8757,8 +3165,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (12))), 1));
-							((Slot) ((Map) invobj).get((int) (12))).putStack(_setstack);
+							}.getAmount((int) (16))), 1));
+							((Slot) ((Map) invobj).get((int) (16))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -8768,7 +3176,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(TorchBlackWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -8784,8 +3192,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (19))), 1));
-							((Slot) ((Map) invobj).get((int) (19))).putStack(_setstack);
+							}.getAmount((int) (23))), 1));
+							((Slot) ((Map) invobj).get((int) (23))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -8795,7 +3203,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(TourchStripeWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -8811,8 +3219,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (26))), 1));
-							((Slot) ((Map) invobj).get((int) (26))).putStack(_setstack);
+							}.getAmount((int) (30))), 1));
+							((Slot) ((Map) invobj).get((int) (30))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -8822,7 +3230,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(HorzTorchBananaDarkStripedWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -8838,8 +3246,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (33))), 1));
-							((Slot) ((Map) invobj).get((int) (33))).putStack(_setstack);
+							}.getAmount((int) (37))), 1));
+							((Slot) ((Map) invobj).get((int) (37))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -8849,7 +3257,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(HorzTorchBrownWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -8865,8 +3273,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (40))), 1));
-							((Slot) ((Map) invobj).get((int) (40))).putStack(_setstack);
+							}.getAmount((int) (3))), 1));
+							((Slot) ((Map) invobj).get((int) (3))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -8876,7 +3284,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(HorzTorchStripeWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -8892,8 +3300,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (6))), 1));
-							((Slot) ((Map) invobj).get((int) (6))).putStack(_setstack);
+							}.getAmount((int) (10))), 1));
+							((Slot) ((Map) invobj).get((int) (10))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -8903,7 +3311,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(HorzTorchBananaStripedWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -8919,8 +3327,395 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (13))), 1));
-							((Slot) ((Map) invobj).get((int) (13))).putStack(_setstack);
+							}.getAmount((int) (17))), 1));
+							((Slot) ((Map) invobj).get((int) (17))).putStack(_setstack);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (24))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (31))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (38))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (4))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (11))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (18))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (25))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (32))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (39))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (5))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (12))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (19))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (26))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (33))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (40))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (6))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (13))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (20))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (27))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (34))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (41))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (7))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (14))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (21))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (28))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (35))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (42))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (8))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (15))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (22))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (29))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (36))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (43))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+			}
+			if ((((new Object() {
+				public ItemStack getItemStack(int sltid) {
+					Entity _ent = entity;
+					if (_ent instanceof ServerPlayerEntity) {
+						Container _current = ((ServerPlayerEntity) _ent).openContainer;
+						if (_current instanceof Supplier) {
+							Object invobj = ((Supplier) _current).get();
+							if (invobj instanceof Map) {
+								return ((Slot) ((Map) invobj).get(sltid)).getStack();
+							}
+						}
+					}
+					return ItemStack.EMPTY;
+				}
+			}.getItemStack((int) (0))).getItem() == Blocks.JUNGLE_PLANKS.asItem()) && ((new Object() {
+				public ItemStack getItemStack(int sltid) {
+					Entity _ent = entity;
+					if (_ent instanceof ServerPlayerEntity) {
+						Container _current = ((ServerPlayerEntity) _ent).openContainer;
+						if (_current instanceof Supplier) {
+							Object invobj = ((Supplier) _current).get();
+							if (invobj instanceof Map) {
+								return ((Slot) ((Map) invobj).get(sltid)).getStack();
+							}
+						}
+					}
+					return ItemStack.EMPTY;
+				}
+			}.getItemStack((int) (1))).getItem() == Blocks.TORCH.asItem()))) {
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							ItemStack _setstack = new ItemStack(TorchBananaDarkStripedWoodBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (2))), 1));
+							((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -8930,7 +3725,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(TorchBananaStripedWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -8946,8 +3741,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (20))), 1));
-							((Slot) ((Map) invobj).get((int) (20))).putStack(_setstack);
+							}.getAmount((int) (9))), 1));
+							((Slot) ((Map) invobj).get((int) (9))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -8957,7 +3752,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(TorchBananaWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -8973,8 +3768,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (27))), 1));
-							((Slot) ((Map) invobj).get((int) (27))).putStack(_setstack);
+							}.getAmount((int) (16))), 1));
+							((Slot) ((Map) invobj).get((int) (16))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -8984,7 +3779,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(TorchBlackWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -9000,8 +3795,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (34))), 1));
-							((Slot) ((Map) invobj).get((int) (34))).putStack(_setstack);
+							}.getAmount((int) (23))), 1));
+							((Slot) ((Map) invobj).get((int) (23))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -9011,7 +3806,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(TourchStripeWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -9027,8 +3822,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (41))), 1));
-							((Slot) ((Map) invobj).get((int) (41))).putStack(_setstack);
+							}.getAmount((int) (30))), 1));
+							((Slot) ((Map) invobj).get((int) (30))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -9038,7 +3833,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(HorzTorchBananaDarkStripedWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -9054,8 +3849,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (7))), 1));
-							((Slot) ((Map) invobj).get((int) (7))).putStack(_setstack);
+							}.getAmount((int) (37))), 1));
+							((Slot) ((Map) invobj).get((int) (37))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -9065,7 +3860,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(HorzTorchBrownWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -9081,8 +3876,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (14))), 1));
-							((Slot) ((Map) invobj).get((int) (14))).putStack(_setstack);
+							}.getAmount((int) (3))), 1));
+							((Slot) ((Map) invobj).get((int) (3))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -9092,7 +3887,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(HorzTorchStripeWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -9108,8 +3903,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (21))), 1));
-							((Slot) ((Map) invobj).get((int) (21))).putStack(_setstack);
+							}.getAmount((int) (10))), 1));
+							((Slot) ((Map) invobj).get((int) (10))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -9119,7 +3914,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(HorzTorchBananaStripedWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -9135,8 +3930,395 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (28))), 1));
-							((Slot) ((Map) invobj).get((int) (28))).putStack(_setstack);
+							}.getAmount((int) (17))), 1));
+							((Slot) ((Map) invobj).get((int) (17))).putStack(_setstack);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (24))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (31))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (38))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (4))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (11))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (18))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (25))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (32))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (39))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (5))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (12))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (19))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (26))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (33))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (40))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (6))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (13))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (20))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (27))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (34))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (41))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (7))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (14))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (21))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (28))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (35))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (42))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (8))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (15))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (22))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (29))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (36))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (43))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+			}
+			if ((((new Object() {
+				public ItemStack getItemStack(int sltid) {
+					Entity _ent = entity;
+					if (_ent instanceof ServerPlayerEntity) {
+						Container _current = ((ServerPlayerEntity) _ent).openContainer;
+						if (_current instanceof Supplier) {
+							Object invobj = ((Supplier) _current).get();
+							if (invobj instanceof Map) {
+								return ((Slot) ((Map) invobj).get(sltid)).getStack();
+							}
+						}
+					}
+					return ItemStack.EMPTY;
+				}
+			}.getItemStack((int) (0))).getItem() == Blocks.ACACIA_PLANKS.asItem()) && ((new Object() {
+				public ItemStack getItemStack(int sltid) {
+					Entity _ent = entity;
+					if (_ent instanceof ServerPlayerEntity) {
+						Container _current = ((ServerPlayerEntity) _ent).openContainer;
+						if (_current instanceof Supplier) {
+							Object invobj = ((Supplier) _current).get();
+							if (invobj instanceof Map) {
+								return ((Slot) ((Map) invobj).get(sltid)).getStack();
+							}
+						}
+					}
+					return ItemStack.EMPTY;
+				}
+			}.getItemStack((int) (1))).getItem() == Blocks.TORCH.asItem()))) {
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							ItemStack _setstack = new ItemStack(TorchBananaDarkStripedWoodBlock.block);
+							_setstack.setCount((int) Math.max((new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (2))), 1));
+							((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -9146,7 +4328,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(TorchBananaStripedWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -9162,8 +4344,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (35))), 1));
-							((Slot) ((Map) invobj).get((int) (35))).putStack(_setstack);
+							}.getAmount((int) (9))), 1));
+							((Slot) ((Map) invobj).get((int) (9))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -9173,7 +4355,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(TorchBananaWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -9189,8 +4371,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (42))), 1));
-							((Slot) ((Map) invobj).get((int) (42))).putStack(_setstack);
+							}.getAmount((int) (16))), 1));
+							((Slot) ((Map) invobj).get((int) (16))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -9200,7 +4382,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(TorchBlackWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -9216,8 +4398,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (8))), 1));
-							((Slot) ((Map) invobj).get((int) (8))).putStack(_setstack);
+							}.getAmount((int) (23))), 1));
+							((Slot) ((Map) invobj).get((int) (23))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -9227,7 +4409,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(TourchStripeWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -9243,8 +4425,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (15))), 1));
-							((Slot) ((Map) invobj).get((int) (15))).putStack(_setstack);
+							}.getAmount((int) (30))), 1));
+							((Slot) ((Map) invobj).get((int) (30))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -9254,7 +4436,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(HorzTorchBananaDarkStripedWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -9270,8 +4452,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (22))), 1));
-							((Slot) ((Map) invobj).get((int) (22))).putStack(_setstack);
+							}.getAmount((int) (37))), 1));
+							((Slot) ((Map) invobj).get((int) (37))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -9281,7 +4463,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(HorzTorchBrownWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -9297,8 +4479,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (29))), 1));
-							((Slot) ((Map) invobj).get((int) (29))).putStack(_setstack);
+							}.getAmount((int) (3))), 1));
+							((Slot) ((Map) invobj).get((int) (3))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -9308,7 +4490,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(HorzTorchStripeWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -9324,8 +4506,8 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (36))), 1));
-							((Slot) ((Map) invobj).get((int) (36))).putStack(_setstack);
+							}.getAmount((int) (10))), 1));
+							((Slot) ((Map) invobj).get((int) (10))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}
@@ -9335,7 +4517,7 @@ public class TorchLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(Blocks.AIR);
+							ItemStack _setstack = new ItemStack(HorzTorchBananaStripedWoodBlock.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -9351,8 +4533,338 @@ public class TorchLogicProcedure {
 									}
 									return 0;
 								}
-							}.getAmount((int) (43))), 1));
-							((Slot) ((Map) invobj).get((int) (43))).putStack(_setstack);
+							}.getAmount((int) (17))), 1));
+							((Slot) ((Map) invobj).get((int) (17))).putStack(_setstack);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (24))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (31))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (38))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (4))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (11))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (18))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (25))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (32))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (39))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (5))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (12))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (19))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (26))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (33))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (40))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (6))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (13))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (20))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (27))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (34))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (41))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (7))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (14))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (21))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (28))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (35))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (42))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (8))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (15))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (22))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (29))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (36))).putStack(ItemStack.EMPTY);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (43))).putStack(ItemStack.EMPTY);
 							_current.detectAndSendChanges();
 						}
 					}
